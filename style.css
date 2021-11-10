@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  background-color: #598759;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app {
+  background-color: blanchedalmond;
+  border: 15px solid rgba(199, 154, 29, 0.694);
+  padding: 3rem;
+  min-height: 600px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: -2rem;
+}
